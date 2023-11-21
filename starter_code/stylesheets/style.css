@@ -138,3 +138,30 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+@media (max-width: 480px) {
+  .menu {
+    background-color: #540b51;
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .menu ul {
+    display: none;
+  }
+
+  .menu img {
+    max-width: 50px;
+    width: 100%;
+  }
+
+  .menu button {
+    background: none;
+    border: none;
+  }
+}
